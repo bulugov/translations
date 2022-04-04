@@ -5,9 +5,13 @@ This script outputs official names of all countries using the translation key pr
 
 <h3>Installation</h3>
 
-For this script to operate properly, you need to download [countries.json](https://github.com/bulugov/personal/blob/main/countries.json)
+To open this repo in your local VS Code, you can clink on the following link:
+[Open in Visual Studio Code](https://open.vscode.dev/bulugov/personal)
 
-Then, download [translations.py](https://github.com/bulugov/personal/blob/main/translations.py)
+Alternatively, you can manually download necessary files via links below:
+
+1. [countries.json](https://github.com/bulugov/personal/blob/main/countries.json)
+2. [translations.py](https://github.com/bulugov/personal/blob/main/translations.py)
 
 <h3>Usage</h3>
 
