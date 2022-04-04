@@ -4,7 +4,7 @@ import sys
 from sys import argv
 
 
-# Check if the command line has arguments, and if yes,
+# Checking if the command line has arguments, and if yes,
 # assign the argument to the variable for main func, otherwise print error
 if len(sys.argv) == 1:
     print("Parameter cannot be empty!")
@@ -18,15 +18,17 @@ absolutePath = os.path.abspath("countries.json")
 # Unpacking the .json file from absolute path defined above
 f = open(absolutePath)
 
-# Define a variable with data from the .json file
+# Defining a variable with data from the .json file
 data = json.load(f)
 
-# Define a dynamic list with supported translation keys
+# Defining a dynamic global list for error-checking related with unsupported user input
 keys = []
 
-# Dynamically add keys from the .json file to the list defined above
-for i in data[0]["translations"]:
-    keys.append(i)
+# Filling in the global list defined above
+for i in range(len(data)):
+    for j in data[i]["translations"]:
+        if j not in keys:
+            keys.append(j)
 
 
 # Main function that uses if-else statement to error-check and if none is triggered, translates country names
@@ -35,12 +37,12 @@ def translate(key):
         print("Key is not supported!")
     else:
         for i in range(len(data)):
-            print(data[i]["translations"][key])
+            if key in data[i]["translations"]:
+                print(data[i]["translations"][key]["official"])
 
 
 # Call the main function
 translate(key)
 
 f.close()
-
 
