@@ -5,9 +5,9 @@ This script outputs official names of all countries using the translation key pr
 
 <h3>Installation</h3>
 
-For this script to operate properly, you need to install [countries.json](https://github.com/bulugov/personal/blob/main/countries.json)
+For this script to operate properly, you need to download [countries.json](https://github.com/bulugov/personal/blob/main/countries.json)
 
-Then, install [translations.py](https://github.com/bulugov/personal/blob/main/translations.py)
+Then, download [translations.py](https://github.com/bulugov/personal/blob/main/translations.py)
 
 <h3>Usage</h3>
 
@@ -21,7 +21,33 @@ Or, for older versions of Python:
 python translations.py {parameter}
 ```
 
-Parameter list is dynamically pulled from [countries.json](https://github.com/bulugov/personal/blob/main/countries.json).
-You can familiarize yourself with examples of keys in the file.
+<h4>Parameters</h4>
+
+Parameter list is pulled from [countries.json](https://github.com/bulugov/personal/blob/main/countries.json).
+
+You can familiarize yourself with the full list of keys in the file or in the list below:
+1. Welsh: 'cym'
+2. Czech: 'ces'
+3. Deutsch: 'deu'
+4. Estonian: 'est'
+5. Finnish: 'fin'
+6. French: 'fra'
+7. Croatian: 'hrv'
+8. Hungarian: 'hun'
+9. Italian: 'ita'
+10. Japanese: 'jpn'
+11. Korean: 'kor'
+12. Dutch: 'nld'
+13. Persian: 'per'
+14. Polish: 'pol'
+15. Portuguese: 'por'
+16. Russian: 'rus'
+17. Slovak: 'slk'
+18. Spanuish: 'spa'
+19. Swedish: 'swe'
+20. Urdu: 'urd'
+21. Chinese: 'zho'
+
+
 
 
