@@ -1,7 +1,6 @@
 import json
 import os
 import sys
-from sys import argv
 
 
 # Checking if the command line has arguments, and if yes,
