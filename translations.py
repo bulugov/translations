@@ -8,6 +8,9 @@ import sys
 if len(sys.argv) == 1:
     print("Parameter cannot be empty!")
     sys.exit()
+elif len(sys.argv) > 2:
+    print("Too many parameters!")
+    sys.exit()
 else:
     key = sys.argv[1]
 
