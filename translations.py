@@ -9,7 +9,7 @@ if len(sys.argv) == 1:
     print("Parameter cannot be empty!")
     sys.exit()
 else:
-    key = argv[1]
+    key = sys.argv[1]
 
 # Making the script portable by defining absolute path
 absolutePath = os.path.abspath("countries.json")
@@ -44,4 +44,3 @@ def translate(key):
 translate(key)
 
 f.close()
-
