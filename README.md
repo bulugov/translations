@@ -10,8 +10,8 @@ To open this repo in your local VS Code, you can clink on the following link:
 
 Alternatively, you can manually download necessary files via links below:
 
-1. [countries.json](https://github.com/bulugov/personal/blob/main/countries.json)
-2. [translations.py](https://github.com/bulugov/personal/blob/main/translations.py)
+1. [countries.json](https://github.com/bulugov/translations/blob/main/countries.json)
+2. [translations.py](https://github.com/bulugov/translations/blob/main/translations.py)
 
 <h3>Usage</h3>
 
