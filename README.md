@@ -13,6 +13,15 @@ Alternatively, you can manually download necessary files via links below:
 1. [countries.json](https://github.com/bulugov/translations/blob/main/countries.json)
 2. [translations.py](https://github.com/bulugov/translations/blob/main/translations.py)
 
+To install requirements.txt, enter the following command in your terminal:
+```sh
+pip3 install -r requirements.txt 
+```
+
+Or, for older versions of pip:
+```sh
+pip install -r requirements.txt 
+```
 <h3>Usage</h3>
 
 To run the script, enter following command in your terminal: 
