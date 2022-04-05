@@ -1,1 +1,2 @@
-https://github.com/psf/black
+black==22.1.0
+
